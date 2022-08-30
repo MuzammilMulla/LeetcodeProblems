@@ -39,7 +39,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FibonacciNumber">
+    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodesolving.FibonacciNumber" />
+      <module name="LeetcodeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodesolving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="powerOf4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodesolving.powerOf4" />
       <module name="LeetcodeProblems" />
@@ -55,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciNumber" />
         <item itemvalue="Application.powerOf4" />
       </list>
     </recent_temporary>
