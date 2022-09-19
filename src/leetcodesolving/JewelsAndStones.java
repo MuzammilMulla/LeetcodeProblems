@@ -7,6 +7,13 @@ public class JewelsAndStones {
     public static void main(String[] args) {
         String  jewels = "aA", stones = "aAAbbbb";
         System.out.println(numJewelsInStones(jewels, stones));
+
+//
+//        String s = "myname";
+//        char[] c =s.toCharArray();
+//        for (int i = 0; i <c.length ; i++) {
+//            System.out.print(c[i] + " ");  //m y n a m e
+//        }
     }
 
     static int numJewelsInStones(String jewels, String stones) {
@@ -27,3 +34,10 @@ public class JewelsAndStones {
       return count;
     }
 }
+//HashMap<Integer,Character> map = new HashMap<>() ;
+//            for(int i=0; i<jewels.length(); i++)
+//                    map.put(i, jewels.charAt(i) );
+//            for(int i=0; i<stones.length(); i++)
+//                   if( map.containsValue(stones.charAt(i)))
+//                           count++;
+//            return count;
