@@ -12,7 +12,15 @@ public class FindDifference {
     }
 
     static char findTheDifference(String s, String t) {
-
+        
+        var res=0;
+        for(var c:s.toCharArray()){
+            res=res^c;
+        }
+         for(var c:t.toCharArray()){
+            res=res^c;
+        }
+        return (char) res;
 
         //        String s = "abcd", t = "abcde";
         ////        int sum = 0;
@@ -30,23 +38,25 @@ public class FindDifference {
         ////        System.out.println(c);
 
 
-        HashSet<Character> hashSet = new HashSet<>();
+//         HashSet<Character> hashSet = new HashSet<>();
 
-        for (Character character : s.toCharArray()) {
-            hashSet.add(character);
-        }
-        for (Character character : t.toCharArray()) {
-            if (hashSet.contains(character)) {
-                hashSet.remove(character);
-            } else {
-                hashSet.add(character);
-            }
-        }
-        char ans = 0;
-        for (Character e : hashSet) {
-            ans = e;
-        }
-        return ans;
+//         for (Character character : s.toCharArray()) {
+//             hashSet.add(character);
+//         }
+//         for (Character character : t.toCharArray()) {
+//             if (hashSet.contains(character)) {
+//                 hashSet.remove(character);
+//             } else {
+//                 hashSet.add(character);
+//             }
+//         }
+//         char ans = 0;
+//         for (Character e : hashSet) {
+//             ans = e;
+//         }
+//         return ans;
+        
+        
 
     }
 }
