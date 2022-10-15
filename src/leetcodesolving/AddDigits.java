@@ -9,14 +9,11 @@ package QuestionsSolving;
 public class AddDigits {
     public static void main(String[] args) {
         int num=38;
-        System.out.println("HI");
-       // System.out.println(addDigits(num));
         System.out.println(addDigits(num));
 
     }
 
     static int addDigits(int num) {
-
      int sum=0;
      while (num >0){
          sum+=num%10;
@@ -27,8 +24,6 @@ public class AddDigits {
              sum=0;
          }
      }
-
-
         return sum;
 
     }
