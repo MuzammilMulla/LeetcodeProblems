@@ -1,2 +1,2 @@
 # LeetcodeProblems
-leetCode problems practice in Java
+LeetCode problems practice in Java
